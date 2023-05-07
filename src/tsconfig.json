@@ -1,0 +1,13 @@
+{
+  "include": [
+    "*.ts",
+    "*.tsx",
+    ".eslintrc.cjs",
+    "interfaces.ts",
+    "components/ThemeProvider/themeProvider.tsx"
+  ],
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}
